@@ -1,0 +1,9 @@
+PART 1. HYPERVISORS
+1. What are the most popular hypervisors for infrastructure virtualization?
+VMware ESX, Citrix XenServer, Microsoft Virtual PC, VMware Workstation, QEMU, Parallels, VirtualBox.
+2. Briefly describe the main differences of the most popular hypervisors.
+Сначала стоит сказать, что гипервизоры бывают двух типов: автономные и на основе базовой ОС;
+так же существует третий вид - гибридный.
+Тип 1, Х не зависит от базового ОС и работает в окружении усеченного ядра.
+Тип 2, V работает в кольце с ядром основной ОС, за счет чего кад может выполняться на физическом процессоре, 
+но досупк устроиствам ввода-вывода из гостевого ОС осуществляется второй компонент.
